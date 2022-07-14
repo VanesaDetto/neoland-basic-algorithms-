@@ -4,7 +4,7 @@ let myFavoriteHero = "Hulk";
 let x = 50;
 let h = 5;
 let y = 10;
-let z = 5 + 10;
+let z = h + y;
 
 //Iteración #2//
 
@@ -47,3 +47,27 @@ car1.finalprice = car1.basePrice + globalBasePrice;
 console.log("Modificado", car1);
 car2.finalPrice = car2.basePrice + globalBasePrice;
 console.log("Modificado", car2);
+
+//Iteración #3//
+
+//1.1//
+let multiplicacion = 10 * 5;
+console.log(multiplicacion);
+
+//1.2//
+let division = 10 / 2;
+console.log(division);
+
+//1.3//
+let resto = 15 % 9;
+console.log(resto);
+
+//1.4//
+let p = 10;
+let j = 5;
+let o = p + j;
+
+//1.5//
+let c = 10;
+let m = 5;
+let i = c * m;
